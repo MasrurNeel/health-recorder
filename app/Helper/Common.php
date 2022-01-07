@@ -206,6 +206,7 @@ class Common
                        $newDoctor->department_id = $requestedData['department_id'];
                        $newDoctor->hospital_id = $requestedData['hospital_id'];
                        $newDoctor->user_id = $newUser->id;
+                       $newDoctor->fee = $requestedData['fee'];
                        $newDoctor->designation = $requestedData['designation'];
                        $newDoctor->image = $requestedData['image'];
                        $newDoctor->day = $requestedData['day'];
